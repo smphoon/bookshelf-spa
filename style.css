@@ -1,0 +1,31 @@
+/* Sortable column headers */
+.sortable {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.sortable:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sort-icon {
+    font-size: 0.75rem;
+    margin-left: 4px;
+    opacity: 0.6;
+}
+
+.sortable:hover .sort-icon,
+.sort-icon.text-warning {
+    opacity: 1;
+}
+
+/* Constrain notes column width on wide screens */
+@media (min-width: 992px) {
+    td:nth-child(5) {
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
