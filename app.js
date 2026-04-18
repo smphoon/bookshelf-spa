@@ -4,7 +4,8 @@
 
 // In production this would be an environment variable injected by Azure Static Web Apps.
 // For demo purposes the base URL is defined here.
-const API_BASE = 'http://localhost:5190/api';
+//const API_BASE = 'http://localhost:5190/api';
+const API_BASE = 'https://bookshelf-api-smphoon-b2d2bdf8abfecse8.ukwest-01.azurewebsites.net/api';
 
 // ========================================================================================
 // State
