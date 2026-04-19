@@ -2,6 +2,11 @@
 
 A responsive single-page application for browsing and submitting reading list entries. Built with HTML, Bootstrap 5 and vanilla JavaScript as part of a technical exercise demonstrating Azure Static Web Apps deployment.
 
+## Live Demo
+
+- **SPA:** https://icy-smoke-023496c03.7.azurestaticapps.net
+- **API (Swagger):** https://bookshelf-api-smphoon-b2d2bdf8abfecse8.ukwest-01.azurewebsites.net/swagger
+
 ## Tech Stack
 
 - **UI Framework:** Bootstrap 5 (CDN)
